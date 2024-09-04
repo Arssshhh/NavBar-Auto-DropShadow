@@ -3,6 +3,8 @@ This project demonstrates how to create a fixed navigation bar that stays at the
 
 ## Demo
 
+Follow the link - https://arssshhh.github.io/NavBar-Auto-DropShadow/
+
 You can see the project in action by scrolling down the page. The navigation bar will stick to the top of the viewport and a drop shadow will appear under it to enhance the visual separation from the rest of the content.
 
 ## Features
