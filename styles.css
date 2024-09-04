@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+h2{
+    font-weight: normal;
+    font-size: large;
+}
+
+p {
+    text-align: justify;
+    opacity: 0.6;
+}
+
+footer {
+    color: #333;
+    opacity: 0.8;
+    background-color: #f4f4f4;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 2px;
+    font-size: small;
+}
+
+.navbar {
+    background-color: #f4f4f4;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0 0 0 transparent; /* No shadow initially */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.content {
+    padding: 50px;
+    background-color: #f4f4f4;
+    height: 1500px; /* Added for scroll effect */
+}
+
+.navbar.scrolled {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow when scrolled */
+}
+
+.photo{
+    height: 100px;
+    position: fixed;
+    right: 0;
+    opacity: 0; /* Image opacity is zero initially */
+    transition: opacity 0.5s ease-in-out;
+}
+
+.photo.scrolled{
+    opacity: 1; /* Image displayed when scrolled */
+}
