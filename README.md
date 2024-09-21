@@ -1,6 +1,8 @@
 # NavBar-Auto-DropShadow
 This project demonstrates how to create a fixed navigation bar that stays at the top of the page when you scroll down, with a smooth drop shadow effect appearing under it. This is a basic HTML, CSS and JavaScript implementation, ideal for adding a clean and functional navigation bar to any webpage.
 
+![Google-Settings-idea](https://github.com/user-attachments/assets/58167d3f-ccd2-4129-b8d2-98cea4f28d50)
+
 ## Demo
 
 Follow the link - https://arssshhh.github.io/NavBar-Auto-DropShadow/
